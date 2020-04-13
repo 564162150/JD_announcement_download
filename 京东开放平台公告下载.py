@@ -121,7 +121,7 @@ for i in range(count):
     else:
         print("主题：【%s】%s 邮件发送失败" % (mailid, articleTitleset))
     #由于某些邮箱服务会查看发送频率，所以设置间隔时间可以提高多封连续发送成功率
-	time.sleep(100)
+    time.sleep(100)
 
 # 关闭数据库连接
 db.close()
