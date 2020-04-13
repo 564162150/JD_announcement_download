@@ -73,7 +73,7 @@ def mail(articleTitle, mailtext):
         # 括号里的对应发件人邮箱昵称、发件人邮箱账号
         msg['From'] = formataddr(["京东开放平台", my_sender])
         # 括号里的对应收件人邮箱昵称、收件人邮箱账号
-        msg['To'] = formataddr(["杨柳青", my_user])
+        msg['To'] = formataddr(["公告机器人", my_user])
         # 邮件的主题，也可以说是标题
         msg['Subject'] = articleTitle
 
